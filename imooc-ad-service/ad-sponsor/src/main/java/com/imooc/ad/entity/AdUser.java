@@ -23,7 +23,7 @@ public class AdUser {
     @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    // 测试修改
     @Basic
     @Column(name = "username", nullable = false)
     private String username;
